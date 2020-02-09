@@ -1,3 +1,4 @@
+package task;
 import java.util.Scanner;
 
 public class Main_1 {
@@ -15,14 +16,14 @@ public class Main_1 {
 			System.out.println("Enter the weight of "+(i+1)+" chococlate");
 			choc[i]=sc.nextInt();
 		}
-		Chococate c1=new Chocolate();
+		Chocolate c1=new Chocolate();
 		int chocweight=c1.total_weight(choc, no_of_choc);
 		for(int i=0;i<no_of_sweets;i++)
 		{
 			System.out.println("Enter the weight of "+(i+1)+" sweet");
 			sweets[i]=sc.nextInt();
 		}
-		Sweet s1=new Sweet();
+		Sweets s1=new Sweets();
 		int sweetweight=c1.total_weight(sweets, no_of_sweets);
 		System.out.print("Enter the lowest weight range of candy:");
 		int low=sc.nextInt();

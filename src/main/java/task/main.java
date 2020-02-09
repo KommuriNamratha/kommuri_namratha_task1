@@ -1,3 +1,6 @@
-public static void main( String[] args ) {
-        System.out.println( "Hello World!" );
+package task;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
     }
+}

@@ -1,5 +1,6 @@
+package task;
 public class Sweets extends Abstract{
-	public int total_weight(int[] sweet,int n)
+	public int total_weight(int[] sweets,int n)
 	{
 		int tot=0;
 		for(int i=0;i<n;i++)
